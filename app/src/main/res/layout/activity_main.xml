@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello, Neha!!"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:textColor="@color/material_dynamic_tertiary40"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to BMI Calculator"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter your height(in cm):"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editText_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter your weight(in kg):"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editText_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compute BMI" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20sp"/>
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your BMI is:"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textView_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        />
+</LinearLayout>
